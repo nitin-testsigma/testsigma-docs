@@ -45,7 +45,7 @@ Before you enable the Control Who Can Stop Execution feature, you should underst
 1. Once you enable the feature, the following permissions will be in effect:
    - **Account Administrators** and **Super Administrators**, who can stop executions via the Usage Details or Run Results sections, hold the highest control.
    - All executions can be viewed by **Test Managers**, **Test Leads**, and **Automation Engineers**, and they can only stop the executions or inspector sessions initiated by themselves.
-2. Users cannot click the **Stop** button to halt the execution. If a user needs to stop the execution and has not initiated it, they must **contact** the **Super Admin**. ![Stop hidden for inspectors](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/enable_whocanstop_runres.gif)
+2. Inspectors cannot click the **Stop** button to halt the execution. If an inspector needs to stop the execution and has not initiated it, they must contact the super admin. ![Stop hidden for inspectors](https://s3.amazonaws.com/static-docs.testsigma.com/new_images/projects/overview/enable_whocanstop_runres.gif)
 
 [[info | NOTE:]]
 | Super Admins have absolute control and can stop any execution, irrespective of the user.
