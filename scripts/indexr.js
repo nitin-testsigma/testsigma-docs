@@ -41,6 +41,7 @@ function pageToTypesenseRecord({ node }) {
   console.log('node', node);
   return {
     objectID: id,
+    id: id,
     ...frontmatter,
     ...rest,
   };

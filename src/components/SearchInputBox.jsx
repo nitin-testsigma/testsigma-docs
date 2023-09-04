@@ -121,11 +121,13 @@ class SearchInputBox extends React.Component {
                                             <SearchHits hitComponent={Hits} />
                                         </div>
                                     </div>
-                                    <div className="row">
-                                        <div className="col-12">
-                                            <Pagination />
+                                    {Boolean(Hits.length) && (
+                                        <div className="row">
+                                            <div className="col-12">
+                                                <Pagination />
+                                            </div>
                                         </div>
-                                    </div>
+                                    )}
                                 </div>
                             </div>
                         </InstantSearch>
